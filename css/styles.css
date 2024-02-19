@@ -43,8 +43,8 @@ margin-right: auto;}
     margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
-
 }
+
 
 /* ========/ Common styles ======= */
 
@@ -143,7 +143,6 @@ padding-bottom: 188px;
 }
 
 .title-name {
-    padding-top: 188px;
     max-width: 496px;
     font-weight: 700;
         font-size: 56px;
@@ -213,7 +212,10 @@ padding-bottom: 188px;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+    
 
 .benefits-info {font-weight: 400;
     font-size: 16px;
@@ -227,8 +229,8 @@ padding-bottom: 188px;
     /* ======= Team section ======== */
 
     .team {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #F4F4FD;
     }
 
@@ -241,22 +243,33 @@ padding-bottom: 188px;
        .team-list-item {
         background-color: #FFFFFF;
         width: calc((100% - 2px) /4);
+        border-radius: 0px 0px 4px 4px;
        }     
     
         .team-picture {
             background-color: #fff;}
+
+            .team-name-container {
+                padding-top: 32px;
+                padding-bottom: 32px;
+            }
+
     
         .team-name {font-weight: 500;
             font-size: 20px;
             line-height: 1.2;
             letter-spacing: 0.02em;
-            color: #2e2f42;}
+            color: #2e2f42;
+            text-align: center;
+            margin-bottom: 8px;
+            }
     
         .team-position {font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.02em;
-            color: #434455;}
+            color: #434455;
+        text-align: center;}
 
     /* ========/ Team section ======== */
 
@@ -265,7 +278,7 @@ padding-bottom: 188px;
         .portfolio {
         
             background-color: #F4F4FD;
-            padding-top: 60px;
+            padding-top: 120px;
             padding-bottom: 120px;
     
         }
@@ -273,7 +286,8 @@ padding-bottom: 188px;
         .portfolio-list {
             display: flex;
             flex-wrap: wrap;
-            gap: 24px;
+            column-gap: 24px;
+            row-gap: 48px;
             background-color: #FFFFFF;
         }
 
@@ -286,6 +300,7 @@ padding-bottom: 188px;
             line-height: 1.2;
             letter-spacing: 0.02em;
             color: #2e2f42;
+            margin-bottom: 8px;
         }
     
         .portfolio-picture-info {
@@ -296,15 +311,22 @@ padding-bottom: 188px;
             color: #434455;
         }
 
+        .portfolio-info-container {padding: 32px 16px;
+            border: 1px solid #e7e9fc;
+            border-top: none;
+
+
+        }
+
     /* ======== Page Footer styles ======== */
 
     .page-footer {
         background-color: #2e2f42;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding: 100px 0;
     }
     
-.footer-logo {margin-top: 100px;
+.footer-logo {display: inline-block
+    ;
     font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -312,6 +334,7 @@ padding-bottom: 188px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 
 }
 
