@@ -27,8 +27,8 @@ img {
     display: block;
 }
 .container {width: 1158px;
-padding-left: 16px;
-padding-right: 16px;
+padding-left: 15px;
+padding-right: 15px;
 margin-left: auto;
 margin-right: auto;}
 
@@ -50,6 +50,10 @@ margin-right: auto;}
 
 /* ======== page Header styles ======== */
 
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .page-header-container {
     display: flex;
     justify-content: space-between;
@@ -62,7 +66,7 @@ margin-right: auto;}
 }
 .nav-menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
    
     
 }
@@ -112,7 +116,7 @@ font-weight: 500;
 }
 .adress-list-item {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 
 .adress-link {
@@ -128,10 +132,14 @@ font-weight: 500;
 }
 /* ========/ page Header styles ======== */
 
+/* ======== Hero section styles ======== */
+
 .title-section {
 background: #2e2f42;
 width: 1440px;
 height: 600px;
+padding-top: 188px;
+padding-bottom: 188px;
 }
 
 .title-name {
@@ -178,9 +186,17 @@ height: 600px;
 /* ======== Benefits styles ========*/
 
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 .benefits {
         padding-top: 120px;
-        padding-bottom: 60px;
+        padding-bottom: 120px;
 }
 
 .benefits-list {
@@ -283,7 +299,9 @@ height: 600px;
     /* ======== Page Footer styles ======== */
 
     .page-footer {
-        background-color: #2e2f42;;
+        background-color: #2e2f42;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     
 .footer-logo {margin-top: 100px;
@@ -309,7 +327,6 @@ height: 600px;
     color: #f4f4fd;
     margin-right: auto;
     max-width: 264px;
-    padding-bottom: 100px;
 }
 
 /* ========/ Page Footer styles ======== */
