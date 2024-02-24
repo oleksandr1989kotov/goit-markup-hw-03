@@ -137,9 +137,9 @@ font-weight: 500;
 .title-section {
 background: #2e2f42;
 width: 1440px;
-height: 600px;
 padding-top: 188px;
 padding-bottom: 188px;
+margin: auto;
 }
 
 .title-name {
